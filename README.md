@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+<h1 align="center">👛 Carteira Digital 👛</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
 
-## Available Scripts
+> 🔎  Um aplicativo web em React para acompanhar orçamento, registrar despesas e calcular saldo, oferecendo controle financeiro de maneira intuitiva.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📄 Explicação
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O aplicativo Planejamento Financeiro é uma ferramenta simples e eficaz para auxiliar no controle das suas finanças pessoais. Ele permite que você acompanhe o seu orçamento, registre suas despesas e visualize o saldo restante disponível. Desenvolvido como parte de um aprendizado prático de programação, este projeto demonstra a aplicação de conceitos essenciais de desenvolvimento web, proporcionando uma experiência prática na construção de aplicações React com uso do Context API e integração de estilos com Bootstrap.
 
-### `npm test`
+## 🔨 Funcionalidades 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Acompanhamento de Orçamento: Visualize seu orçamento total e o quanto você já gastou.
 
-### `npm run build`
+2. Registro de Despesas: Adicione e gerencie suas despesas com facilidade.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Cálculo Automático: O aplicativo calcula automaticamente o valor restante disponível após cada despesa registrada.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias
 
-### `npm run eject`
+- React: Biblioteca JavaScript para a construção de interfaces de usuário interativas.
+- Bootstrap: Framework CSS para estilização rápida e responsiva.
+- Context API: API de gerenciamento de estado interno do React, facilitando a compartilhamento de dados entre componentes.
+- HTML e CSS: Estruturação e estilização da aplicação.- JavaScript: Linguagem de programação para lógica e interatividade.
+- Javascript: Linguagem de programação para lógica e interatividade.
+## 📚 Bibliotecas Usadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- React icons
+- Context API
+- Bootstrap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📔 Conhecimentos Utilizados
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+o desenvolver este projeto, você teve a oportunidade de aprender e aplicar os seguintes conhecimentos:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+✅ Desenvolvimento de aplicações web utilizando o framework React.
+✅ Gerenciamento de estado com o Context API do React.
+✅ Componentização e reutilização de elementos de interface de usuário.
+✅ Integração de estilos com o framework Bootstrap.
+✅ Manipulação de formulários para adicionar e gerenciar despesas.
+✅ Utilização de ícones(React Icons): O código importa ícones do pacote react-icons para exibir ícones relacionados a diferentes informações do filme, como orçamento, receita, duração e descrição.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📕 Como usar?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Antes de iniciar, você precisa ter [Git](https://git-scm.com)
 
-### Code Splitting
+```bash
+# Clone this project
+$ git clone (https://github.com/gtamaral/AboutMovies.git)
+# Access
+$ cd budget
+# Install dependencies
+$ yarn or npm install
+# Run the project
+$ yarn start or npm start
+# The server will initialize in the <http://localhost:3000>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Colaborador
 
-### Analyzing the Bundle Size
+Projeto desenvolvido por:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/gtamaral.png" width="160px;" alt="Foto do Rodrigo amaral Juca no github"/><br>
+        <sub>
+          <b>Rodrigo Amaral Jucá</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
